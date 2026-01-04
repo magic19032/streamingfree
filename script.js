@@ -1,4 +1,4 @@
-document.getElementById("#h1").onclick = function() {
+document.querySelector("#h1").onclick = function() {
     alert("Welcome to StreamingFree!");
 }
 console.log("hello 1");
@@ -12,4 +12,5 @@ document.querySelector("#PlanningSerie").onclick = function() {
     window.location.href = "Planning.html";
 }
 console.log("Hello")
+
 
